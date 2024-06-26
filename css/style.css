@@ -1,0 +1,27 @@
+.encabezado{
+    background-color: #ecc5c5;
+    height: auto;
+}
+
+.encabezado h1{
+        color: #8a2be2;
+        font-family:monospace;
+        font-size: 50px;
+}
+
+.encabezado h2{
+    color: #9e54e4;
+    font-family: "Montserrat";
+    font-size: 40px;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.carrusel{
+    position: relative;
+    left: 350px;
+}
+
