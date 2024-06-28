@@ -20,8 +20,16 @@
     padding: 0%;
 }
 
-.carrusel{
-    position: relative;
-    left: 350px;
+.carrusel img{
+    height: 550px;
+    
+}
+
+.presentacion{
+    display: flex;
+    height:500px ;
+    width: 700px;
+    justify-content: center;
+    align-content: center;
 }
 
