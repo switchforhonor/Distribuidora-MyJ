@@ -39,5 +39,22 @@
 
 .footer{
     display: flex;
+    justify-content: center;
     
+}
+
+.productos{
+    margin-right: 990px;
+    margin-left: 100px;
+    
+    left: 500px;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+.productos img{
+    width: 250px;
+    height: 200px;
+    justify-content: center;
 }
