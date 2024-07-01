@@ -64,34 +64,53 @@
                 </div>
               </div>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1641.8754863317588!2d-58.63020131068431!3d-34.610458127577544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb9007689390b%3A0x7184c40b6599a279!2sDistribuidora%20MyJ!5e0!3m2!1ses!2sar!4v1719536698385!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
+              
+            </section>
         <section class="formulario">
             <form action="">
-                <label for="">Nombre</label>
-                    <input type="text" name="nombre" id="nombre" placeholder="Elias">
-                <label for="">Apellido</label>
-                    <input type="text" name="apellido" id="apellido" placeholder="Strohbach">
-                <br>
-                <label for="">Tipo de consulta</label>
-                    <select name="" id="">
-                        <option value="">Metodos de pago</option>
-                        <option value="">Presupuesto</option>
-                        <option value="">Productos disponibles</option>
-                        <option value="">Modo de envio</option>
+              <div class="row g-3" margin_>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                </div>
+              </div>
+                <div>
+                  <label for="">Tipo de consulta</label>
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>Elija una opcion</option>
+                      <option value="1">Metodos de pago</option>
+                      <option value="2">Presupuesto</option>
+                      <option value="3">Productos disponibles</option>
+                      <option value="4">Modo de envio</option>
                     </select>
-                <p>Comentarios</p>
-                <textarea name="" id=""></textarea>
-                <P>Acepta terminos y condicones</P>
-                <input type="checkbox" name="" id="">
-                <input type="submit" name="" id="">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </section>
+        
     </main>
     <footer class="footer">
-        <ul>
-            <li><a href="https://www.instagram.com/distribuidora__myj?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a></li>
-            <li><a href="">Market Place</a></li>
-            <li><a href="">Whatsapp</a></li>
+        <ul class="nav justify-content-center">
+          
+          <li class="nav-item">
+            <a href="https://www.instagram.com/distribuidora__myj?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a>
+          </li>
+          <li class="nav-item">
+            <a href="">Market Place</a>
+          </li>
+          <li class="nav-item">
+            <a href="">Whatsapp</a>
+          </li>
         </ul>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

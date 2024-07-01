@@ -7,22 +7,27 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
     <header>
-        <section class="encabezado">
-            <h2>Contacto</h2>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="./producto.html">Productos</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                    <li><a href="">Whatsapp</a></li>
-                    <li><a href="https://www.instagram.com/distribuidora__myj?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a></li>
-                </ul>
-            </nav>
-        </section>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-img" href="#">
+                    <img src="../assets/logo.jpg" alt="Logo de la empresa" width="250" height="auto">
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="../index.html">Home</a>
+                  <a class="nav-link" href="./producto.html">Producto</a>
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
         <section class="contacto">
@@ -31,32 +36,50 @@
         </section>
         <section class="formulario">
             <form action="">
-                <label for="">Nombre</label>
-                    <input type="text" name="nombre" id="nombre" placeholder="Elias">
-                <label for="">Apellido</label>
-                    <input type="text" name="apellido" id="apellido" placeholder="Strohbach">
-                <br>
-                <label for="">Tipo de consulta</label>
-                    <select name="" id="">
-                        <option value="">Metodos de pago</option>
-                        <option value="">Presupuesto</option>
-                        <option value="">Productos disponibles</option>
-                        <option value="">Modo de envio</option>
-                    </select>
-                <p>Comentarios</p>
-                <textarea name="" id=""></textarea>
-                <P>Acepta terminos y condicones</P>
-                <input type="checkbox" name="" id="">
-                <input type="submit" name="" id="">
+                <div class="row g-3" margin_>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                    </div>
+                  </div>
+                    <div>
+                      <label for="">Tipo de consulta</label>
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>Elija una opcion</option>
+                          <option value="1">Metodos de pago</option>
+                          <option value="2">Presupuesto</option>
+                          <option value="3">Productos disponibles</option>
+                          <option value="4">Modo de envio</option>
+                        </select>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </section>
     </main>
     <footer class="footer">
-        <ul>
-            <li><a href="https://www.instagram.com/distribuidora__myj?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a></li>
-            <li><a href="">Market Place</a></li>
-            <li><a href="">Whatsapp</a></li>
-        </ul>
+        <ul class="nav justify-content-center">
+          
+            <li class="nav-item">
+              <a href="https://www.instagram.com/distribuidora__myj?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a>
+            </li>
+            <li class="nav-item">
+              <a href="">Market Place</a>
+            </li>
+            <li class="nav-item">
+              <a href="">Whatsapp</a>
+            </li>
+          </ul>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
