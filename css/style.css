@@ -30,18 +30,20 @@
 .presentacion{
     max-width: 1100px;
     margin:auto ;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    justify-content: center;
     align-content: center;
-    align-items: center;
+    grid-template-columns: auto auto;
     padding: 15px 20px;
-    
+    column-gap: 50px;
 }
 
 .formulario{
     justify-content: center;
     margin-left: 100px;
     margin-right: 100px;
+    background-color: #7fffd4;
+    border:1px solid #000000;
 }
 
 
@@ -50,10 +52,12 @@
 .footer{
     display: flex;
     justify-content: space-around;
+    background-color: #ecc5c5;
+    
 }
 
 .footer li{
-    text-decoration: none;
+    text-decoration: none ;
 
 }
 
@@ -82,15 +86,25 @@
 
 .contacto{
     margin-right: 200px;
-    left: 500px;
+    margin-left: 200px;
+    
     justify-content: center;
     align-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 30px 450px;
-
+    padding: 30px 300px;
+    background-color: beige;
+    
 }
 
-.contacto p{
+.card-body{
+    background-color: #9e54e4;
+    justify-content: center;
+    width:auto ;
+    border: 1px solid #000000;
     
+}
+
+.card{
+    width: 300px;
 }
