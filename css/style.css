@@ -14,7 +14,9 @@
     font-family: "Montserrat";
     font-size: 40px;
 }
-
+ .main{
+    background-color: firebrick;
+  }
 *{
     margin: 0%;
     padding: 0%;
@@ -26,30 +28,42 @@
 }
 
 .presentacion{
+    max-width: 1100px;
+    margin:auto ;
     display: flex;
-    height:500px ;
-    width: 700px;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    
 }
 
 .formulario{
     justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
+
+
+    
 
 .footer{
     display: flex;
-    justify-content: center;
-    
+    justify-content: space-around;
+}
+
+.footer li{
+    text-decoration: none;
+
 }
 
 .productos{
-    margin-right: 990px;
-    margin-left: 100px;
+    margin: auto;
     
     left: 500px;
     display: flex;
-    justify-content: end;
+    justify-content: space-around;
+    align-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -57,4 +71,26 @@
     width: 250px;
     height: 200px;
     justify-content: center;
+}
+
+
+.contacto img{
+    width: 350px;
+    height: 200px;
+}
+
+
+.contacto{
+    margin-right: 200px;
+    left: 500px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 450px;
+
+}
+
+.contacto p{
+    
 }
