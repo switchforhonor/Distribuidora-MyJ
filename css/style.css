@@ -15,16 +15,38 @@
     font-size: 40px;
 }
  .main{
-    background-color: firebrick;
+    background-color: #bfe6ed;
   }
 *{
     margin: 0%;
     padding: 0%;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.container img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.container p {
+    margin: 0;
+}
+
 
 .carrusel img{
-    height: 550px;
-    
+    width: 550px;
+    height: 700px;
 }
 
 .presentacion{
@@ -42,24 +64,18 @@
     justify-content: center;
     margin-left: 100px;
     margin-right: 100px;
-    background-color: #7fffd4;
+    background-color: #75cede;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border:1px solid #000000;
 }
 
 
     
 
-.footer{
-    display: flex;
-    justify-content: space-around;
-    background-color: #ecc5c5;
-    
-}
 
-.footer a{
-    text-decoration: none ;
 
-}
 
 .productos{
     margin: auto;
@@ -98,7 +114,7 @@
 }
 
 .card-body{
-    background-color: #9e54e4;
+    background-color:  #0cadd7;
     justify-content: center;
     width:auto ;
     border: 1px solid #000000;
@@ -107,4 +123,35 @@
 
 .card{
     width: 300px;
+}
+
+
+/* styles.css */
+
+footer {
+    text-align: center;
+    background-color: #2b51a4;
+}
+footer a {
+    margin: 0 50px;
+    text-decoration: none;
+    color: #f3e9e9;
+    font-size: 20px;
+    display: inline-block;
+    
+
+}
+footer a i {
+    margin-right: 8px;
+}
+
+/* Media queries para dispositivos móviles */
+@media (max-width: 600px) {
+    footer a {
+        margin: 10px 0;
+        display: block;
+    }
+
+
+
 }
